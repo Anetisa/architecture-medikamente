@@ -1,0 +1,908 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="yDEwYwsFcx4xcYXQu-y_">
+    <mxGraphModel dx="3700" dy="3563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-97" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="180" width="1610" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-168" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-795" y="1440" width="1580" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-154" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-795" y="1170" width="1610" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-10" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="-680" width="1560" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-2" value="Пациент" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="-615" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-5" value="Сотрудник склада" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="1270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-6" value="Бизнес-аналитик" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-700" y="1610" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-11" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Запись пациента на приём&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="-680" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-13" value="Администратор" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="-615" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-2" target="IE8gpEe8BljGyIX2EeBU-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="-95" as="sourcePoint" />
+            <mxPoint x="40" y="-145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-17" value="Ф. И. О., телефон,&#xa;паспорт" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.3517" y="-1" relative="1" as="geometry">
+            <mxPoint x="32" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-26" value="1.4&#xa;Запись пациента&#xa;на пиём&#xa;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;fontColor=#333333;strokeColor=#666666;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="-450" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-27" value="1.3&#xa;Идентификация &#xa;пациента" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;fontColor=#333333;strokeColor=#666666;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="-615" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-13" target="IE8gpEe8BljGyIX2EeBU-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-350" y="-330.5" as="sourcePoint" />
+            <mxPoint x="-210" y="-325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-61" value="ФИО, телефон" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-31" vertex="1" connectable="0">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-33" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="-1130" width="1560" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-34" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Регистрация пациента&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="-1130" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-37" value="Администратор" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="-950" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-38" value="Пациент" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="-950" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-38" target="IE8gpEe8BljGyIX2EeBU-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="-90" as="sourcePoint" />
+            <mxPoint x="200" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-40" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22PII%20(%D0%A4.%20%D0%98.%20%D0%9E.%2C%20%26%2310%3B%D0%B4%D0%B0%D1%82%D0%B0%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%2C%20%26%2310%3B%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%2C%20...)%3B%20%26%2310%3B%D0%B4%D0%B0%D1%82%D0%B0.%D0%B2%D1%80%D0%B5%D0%BC%D1%8F%22%20style%3D%22edgeLabel%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-523%22%20y%3D%22265%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.28" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-41" value="PII: Ф. И. О.,&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;дата рождения,&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;телефон, email,&amp;nbsp;&lt;div&gt;паспорт,&lt;br&gt;&lt;div&gt;адрес, заболевания&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.1733" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-42" value="1.1&#xa;Регистрация&#xa;пациента" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;fontColor=#333333;strokeColor=#666666;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="130" y="-950" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-37" target="IE8gpEe8BljGyIX2EeBU-42" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="-280" as="sourcePoint" />
+            <mxPoint x="-150" y="-285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-44" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22PII%20(%D0%A4.%20%D0%98.%20%D0%9E.%2C%20%26%2310%3B%D0%B4%D0%B0%D1%82%D0%B0%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%2C%20%26%2310%3B%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%2C%20...)%3B%20%26%2310%3B%D0%B4%D0%B0%D1%82%D0%B0.%D0%B2%D1%80%D0%B5%D0%BC%D1%8F%22%20style%3D%22edgeLabel%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-523%22%20y%3D%22265%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-43" vertex="1" connectable="0">
+          <mxGeometry x="-0.28" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-45" value="ручное внесение&amp;nbsp;&lt;div&gt;данных из форм пациента,&lt;/div&gt;&lt;div&gt;&amp;nbsp;данных договора с пац.,&lt;/div&gt;&lt;div&gt;сканы документов&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-43" vertex="1" connectable="0">
+          <mxGeometry x="-0.1733" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-47" value="Файловое хранилище&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Файлы пациента в разных форматах)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="85" y="-790" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-42" edge="1" target="IE8gpEe8BljGyIX2EeBU-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="-280" as="sourcePoint" />
+            <mxPoint x="160" y="-285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-42" target="IE8gpEe8BljGyIX2EeBU-47" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="-90" as="sourcePoint" />
+            <mxPoint x="200" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-51" value="1.2&#xa;Генерация &#xa;медкарты" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;fontColor=#333333;strokeColor=#666666;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="425" y="-950" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="IE8gpEe8BljGyIX2EeBU-51" target="IE8gpEe8BljGyIX2EeBU-47" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="50" as="sourcePoint" />
+            <mxPoint x="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-52" value="Файловое хранилище&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Exel файл со списком пациентов)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="80" y="-1120" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-42" target="IE8gpEe8BljGyIX2EeBU-52" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="-90" as="sourcePoint" />
+            <mxPoint x="200" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-27" target="IE8gpEe8BljGyIX2EeBU-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="-565" as="sourcePoint" />
+            <mxPoint x="170" y="-615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-58" value="&lt;div&gt;&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; text-align: center; white-space-collapse: collapse; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Файловое хранилище&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;&quot;&gt;(журнал приёма пациентов)&lt;/font&gt;&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="410" y="-450" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-59" value="Файловое хранилище&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Exel файл со списком пациентов)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="350" y="-625" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-27" target="IE8gpEe8BljGyIX2EeBU-59" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="-565" as="sourcePoint" />
+            <mxPoint x="170" y="-615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-63" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-58" target="IE8gpEe8BljGyIX2EeBU-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="-465" as="sourcePoint" />
+            <mxPoint x="50" y="-515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-65" value="расписание специалистов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-63" vertex="1" connectable="0">
+          <mxGeometry y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-26" target="IE8gpEe8BljGyIX2EeBU-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="-565" as="sourcePoint" />
+            <mxPoint x="170" y="-615" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-295" y="-440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-67" value="расписание&amp;nbsp;&lt;div&gt;специалистов&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-66" vertex="1" connectable="0">
+          <mxGeometry x="-0.0036" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-68" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" target="IE8gpEe8BljGyIX2EeBU-2" edge="1" source="IE8gpEe8BljGyIX2EeBU-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-470" y="-565" as="sourcePoint" />
+            <mxPoint x="-420" y="-615" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-370" y="-510" />
+              <mxPoint x="-700" y="-515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-69" value="возможные даты записи" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-68" vertex="1" connectable="0">
+          <mxGeometry x="0.3091" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.18;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-2" target="IE8gpEe8BljGyIX2EeBU-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-750" y="-465" as="sourcePoint" />
+            <mxPoint x="-480" y="-465" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-730" y="-455" />
+              <mxPoint x="-345" y="-450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-72" value="дата, время, специалист" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-70" vertex="1" connectable="0">
+          <mxGeometry x="-0.0141" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-73" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" target="IE8gpEe8BljGyIX2EeBU-58" edge="1" source="IE8gpEe8BljGyIX2EeBU-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="-437" as="sourcePoint" />
+            <mxPoint x="-110" y="-485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-74" value="запись пациента" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-73" vertex="1" connectable="0">
+          <mxGeometry x="-0.3917" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-13" target="IE8gpEe8BljGyIX2EeBU-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="-565" as="sourcePoint" />
+            <mxPoint x="170" y="-615" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-320" y="-410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-77" value="запись пациента" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-75" vertex="1" connectable="0">
+          <mxGeometry x="0.3355" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-78" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="-240" width="1560" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-79" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Ведение медецинских карт&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-795" y="-240" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-80" value="Пациент" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-740" y="-35" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-81" value="Медицинский специалист" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="-35" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-82" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.01;exitY=0.14;exitDx=0;exitDy=0;entryX=0;entryY=0.14;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-80" target="IE8gpEe8BljGyIX2EeBU-81" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="255" as="sourcePoint" />
+            <mxPoint x="-40" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-83" value="устная жалоба, ФИО" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-82" vertex="1" connectable="0">
+          <mxGeometry x="-0.3846" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-84" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-81" target="IE8gpEe8BljGyIX2EeBU-80" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="255" as="sourcePoint" />
+            <mxPoint x="-40" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-86" value="осмотр, направления,&lt;div&gt;рецепт&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-84" vertex="1" connectable="0">
+          <mxGeometry x="0.0476" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-87" value="2.1&#xa;Запись в &#xa;медкарту" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;fontColor=#333333;strokeColor=#666666;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-115" y="-35" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-88" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-81" target="IE8gpEe8BljGyIX2EeBU-87" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="-105" as="sourcePoint" />
+            <mxPoint x="-40" y="-155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-89" value="направления, рецепты,&lt;div&gt;инф-ция по приёму&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-88" vertex="1" connectable="0">
+          <mxGeometry x="-0.1273" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-90" value="&lt;div&gt;&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; text-align: center; white-space-collapse: collapse; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Файловое хранилище&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;&quot;&gt;(журнал учёта анализов)&lt;/font&gt;&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="-230" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-93" value="Файловое хранилище&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Файлы пациента в разных форматах; медецинские карты)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="310" y="-40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-94" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-87" edge="1" target="IE8gpEe8BljGyIX2EeBU-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="sourcePoint" />
+            <mxPoint x="188" y="3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-95" value="внесение записей" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-94" vertex="1" connectable="0">
+          <mxGeometry x="-0.1415" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-98" value="Пациент" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-740" y="370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-99" value="Кассир" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-100" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-98" target="IE8gpEe8BljGyIX2EeBU-99" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="420" as="sourcePoint" />
+            <mxPoint x="90" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-102" value="ФИО, услуга, сумма" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-100" vertex="1" connectable="0">
+          <mxGeometry x="-0.0824" y="4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-103" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-99" target="IE8gpEe8BljGyIX2EeBU-98" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="420" as="sourcePoint" />
+            <mxPoint x="90" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-104" value="чек" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-103" vertex="1" connectable="0">
+          <mxGeometry x="0.1882" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-106" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-93" target="IE8gpEe8BljGyIX2EeBU-87" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="-125" as="sourcePoint" />
+            <mxPoint y="-175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-107" value="данные медкарт" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-106" vertex="1" connectable="0">
+          <mxGeometry x="0.2972" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-108" value="3.1&#xa;Проведение&#xa;оплаты услуг" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;fontColor=#333333;strokeColor=#666666;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-150" y="370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-109" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Оплата услуг&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="180" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-110" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;1С:Бухгалтерия предприятия&lt;/font&gt;&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="130" y="380" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-111" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-99" target="IE8gpEe8BljGyIX2EeBU-108" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="260" as="sourcePoint" />
+            <mxPoint x="90" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-114" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-117" target="IE8gpEe8BljGyIX2EeBU-110" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="260" as="sourcePoint" />
+            <mxPoint x="90" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-116" value="Данные о транзакции" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-114" vertex="1" connectable="0">
+          <mxGeometry y="1" relative="1" as="geometry">
+            <mxPoint x="-5" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-117" value="Контрольно кассовая машина" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-150" y="530" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-118" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-108" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="380" as="sourcePoint" />
+            <mxPoint x="-100" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-119" value="Дублирование данных оплат,&amp;nbsp;&lt;div&gt;суммы, ФИО&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-118" vertex="1" connectable="0">
+          <mxGeometry x="0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-120" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-108" target="IE8gpEe8BljGyIX2EeBU-117" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="380" as="sourcePoint" />
+            <mxPoint x="-100" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-121" value="платёжный данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-120" vertex="1" connectable="0">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-122" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="650" width="1610" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-123" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; text-align: center; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; text-align: center; white-space-collapse: collapse;&quot;&gt;Файловое хранилище&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); box-sizing: inherit;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;(журнал учёта пациентов и платежей (Excel))&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="250" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-124" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Назначение и учёт анализов&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="650" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-125" value="Медицинский специалист" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="920" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-126" value="&lt;div&gt;&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; text-align: center; white-space-collapse: collapse; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Файловое хранилище&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;&quot;&gt;(журнал учёта анализов (Exel))&lt;/font&gt;&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="690" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-127" value="4.1&#xa;Назначение анализа" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;fontColor=#333333;strokeColor=#666666;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-425" y="920" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-128" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-125" target="IE8gpEe8BljGyIX2EeBU-127" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="860" as="sourcePoint" />
+            <mxPoint x="-90" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-129" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-127" target="IE8gpEe8BljGyIX2EeBU-126" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="860" as="sourcePoint" />
+            <mxPoint x="-90" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-130" value="назначение&lt;div&gt;анализа&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-129" vertex="1" connectable="0">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-131" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-90" target="IE8gpEe8BljGyIX2EeBU-87" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-65" y="-100" as="sourcePoint" />
+            <mxPoint x="-110" y="-65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-132" value="результаты анализов,&lt;div&gt;направления на анализы&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-131" vertex="1" connectable="0">
+          <mxGeometry x="-0.0769" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-133" value="Лаборатория&lt;div&gt;(ВНЕШНЯЯ)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+          <mxGeometry x="690" y="920" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-134" value="Пациент" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1070" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-135" value="4.2&#xa;Получение анализа" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;fontColor=#333333;strokeColor=#666666;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="920" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-136" value="Администратор" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="260" y="920" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-137" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-133" target="IE8gpEe8BljGyIX2EeBU-136" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="1100" as="sourcePoint" />
+            <mxPoint x="-90" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-138" value="отправка результатов&lt;div&gt;(нет API; email или курьером)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-137" vertex="1" connectable="0">
+          <mxGeometry x="0.181" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-140" value="&lt;div&gt;&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; text-align: center; white-space-collapse: collapse; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Файловое хранилище&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;&quot;&gt;(журнал учёта анализов (Exel))&lt;/font&gt;&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="235" y="690" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-141" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="IE8gpEe8BljGyIX2EeBU-140" edge="1" source="IE8gpEe8BljGyIX2EeBU-136">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="920" as="sourcePoint" />
+            <mxPoint x="280" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-142" value="ввод результатов&lt;div&gt;анализов&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-141" vertex="1" connectable="0">
+          <mxGeometry x="0.1333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-143" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-135" target="IE8gpEe8BljGyIX2EeBU-125" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="1100" as="sourcePoint" />
+            <mxPoint x="-90" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-50" y="1020" />
+              <mxPoint x="-670" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-152" value="данные анализов пациентов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-143" vertex="1" connectable="0">
+          <mxGeometry x="0.2667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-144" value="Файловое хранилище&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Файлы пациента в разных форматах; медецинские карты)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="710" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-145" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-136" target="IE8gpEe8BljGyIX2EeBU-144" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="980" as="sourcePoint" />
+            <mxPoint x="-90" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-146" value="снимки,&lt;div&gt;результаты&amp;nbsp;&lt;/div&gt;&lt;div&gt;и др.&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-145" vertex="1" connectable="0">
+          <mxGeometry x="-0.1548" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-147" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.636;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-144" target="IE8gpEe8BljGyIX2EeBU-135" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="980" as="sourcePoint" />
+            <mxPoint x="-31" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-148" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-147" vertex="1" connectable="0">
+          <mxGeometry x="-0.2497" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-149" value="данные анализов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-147" vertex="1" connectable="0">
+          <mxGeometry x="-0.233" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-150" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-136" target="IE8gpEe8BljGyIX2EeBU-134" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="980" as="sourcePoint" />
+            <mxPoint x="-90" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-151" value="печать результатов анализов,&lt;div&gt;отправка на email&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-150" vertex="1" connectable="0">
+          <mxGeometry x="-0.1556" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-155" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-5" target="IE8gpEe8BljGyIX2EeBU-156" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-620" y="1385" as="sourcePoint" />
+            <mxPoint x="-458.64" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-157" value="добавление записи" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-155" vertex="1" connectable="0">
+          <mxGeometry x="-0.2111" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-156" value="5.1&#xa;Учёт товарно-материальных &#xa;ценностей" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;fontColor=#333333;strokeColor=#666666;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="1270" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-158" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-156" target="IE8gpEe8BljGyIX2EeBU-159" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="1290" as="sourcePoint" />
+            <mxPoint x="-240" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-161" value="данные по&lt;div&gt;закупке,&lt;/div&gt;&lt;div&gt;накладные&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-158" vertex="1" connectable="0">
+          <mxGeometry x="-0.3419" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-159" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;1С:Торговля и склад&lt;/font&gt;&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="1270" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-160" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;&quot;&gt;1С:Бухгалтерия предприятия&lt;/font&gt;&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="250" y="1270" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-162" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-159" target="IE8gpEe8BljGyIX2EeBU-160" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="1320" as="sourcePoint" />
+            <mxPoint x="80" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-163" value="обмен данными" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-162" vertex="1" connectable="0">
+          <mxGeometry x="-0.0927" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-164" value="Бухгалтер" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="670" y="1270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-165" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-160" target="IE8gpEe8BljGyIX2EeBU-164" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="1680" as="sourcePoint" />
+            <mxPoint x="80" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-166" value="финансовые данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-165" vertex="1" connectable="0">
+          <mxGeometry x="-0.0636" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-167" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Учёт ТМЦ&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-795" y="1170" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-169" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Построение бизнес отчёта&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-795" y="1440" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-170" value="6.1&#xa;Построение отчёта" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;fontColor=#333333;strokeColor=#666666;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="1610" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-171" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-6" target="IE8gpEe8BljGyIX2EeBU-170" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-540" y="1570" as="sourcePoint" />
+            <mxPoint x="-490" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-172" value="запрос данных" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-171" vertex="1" connectable="0">
+          <mxGeometry x="0.3115" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-173" value="Файловое хранилище&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Файлы пациента в разных форматах; медецинские карты)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1470" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-174" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;&lt;font&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; text-align: center; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; text-align: center; white-space-collapse: collapse;&quot;&gt;Файловое хранилище&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); box-sizing: inherit; box-sizing: inherit;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;(&lt;span style=&quot;box-sizing: inherit;&quot;&gt;Журналы приёма пациентов, учёт пациентов и платежей, медицинские карты, учёт анализов&lt;/span&gt;&amp;nbsp;)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="210" y="1610" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-175" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-173" target="IE8gpEe8BljGyIX2EeBU-170" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="1640" as="sourcePoint" />
+            <mxPoint x="140" y="1590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-285" y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-177" value="медецинские и&lt;div&gt;персональные данные&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-175" vertex="1" connectable="0">
+          <mxGeometry x="-0.0235" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-178" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="IE8gpEe8BljGyIX2EeBU-174" target="IE8gpEe8BljGyIX2EeBU-170" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="1640" as="sourcePoint" />
+            <mxPoint x="140" y="1590" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IE8gpEe8BljGyIX2EeBU-180" value="медецинские, персональный,&lt;div&gt;финансовые данные&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IE8gpEe8BljGyIX2EeBU-178" vertex="1" connectable="0">
+          <mxGeometry x="0.132" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-3" value="&lt;div&gt;&lt;div&gt;Получать только минимально необходимую информацию (принцип data minimization).&lt;/div&gt;&lt;div&gt;Не хранить бумажные анкеты или копии документов дольше 24 часов — сразу сканировать и уничтожать оригиналы.&lt;/div&gt;&lt;div&gt;Обязать администратора разъяснять пациенту цели и объем обработки данных.&lt;/div&gt;&lt;div&gt;Получать письменное согласие на обработку персональных данных согласно 152-ФЗ.&lt;/div&gt;&lt;div&gt;Убедиться, что анкеты и копии документов не остаются на видном месте.&lt;/div&gt;&lt;div&gt;Запретить фотографирование или пересылку данных через личные мессенджеры сотрудников.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="-840" width="630" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-4" value="&lt;div&gt;Использовать RBAC (Role-Based Access Control) — ввод данных возможен только для пользователей с ролью &quot;Администратор ресепшена&quot;.&lt;/div&gt;&lt;div&gt;Каждая операция ввода данных должна быть аудируемой, обеспечивая Data Lineage — кто, когда, какой элемент данных ввёл или изменил.&lt;/div&gt;&lt;div&gt;Использовать защищённые шаблоны (например, формы с валидацией), ограничивающие возможность ввода лишних данных.&lt;/div&gt;&lt;div&gt;Автоматически маскировать (скрывать часть) информации на экране, например, последние цифры паспорта — обфускация интерфейса.&lt;/div&gt;&lt;div&gt;Исключить копирование данных в сторонние приложения или сохранение локально.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="-1130" width="635" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-5" value="Шифрование Excel-файлов (пароль + NTFS + VeraCrypt при необходимости)&lt;br&gt;&lt;div&gt;Присвоение тегов &lt;code data-end=&quot;2130&quot; data-start=&quot;2125&quot;&gt;pii&lt;/code&gt;, &lt;code data-end=&quot;2143&quot; data-start=&quot;2132&quot;&gt;sensitive&lt;/code&gt; в метаданных файлов&lt;/div&gt;&lt;div&gt;Ограничение по ролям (RBAC): только администратор может редактировать&lt;/div&gt;&lt;div&gt;Создание структуры логирования (Excel VBA + FileSystem logs)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-1120" width="390" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-6" value="Использовать &lt;strong data-end=&quot;2394&quot; data-start=&quot;2365&quot;&gt;шаблон с версионированием&lt;/strong&gt;, хранение по ID.&lt;div&gt;Добавить &lt;strong data-end=&quot;2452&quot; data-start=&quot;2426&quot;&gt;метку чувствительности&lt;/strong&gt;: &lt;code data-end=&quot;2463&quot; data-start=&quot;2454&quot;&gt;medical&lt;/code&gt;, &lt;code data-end=&quot;2476&quot; data-start=&quot;2465&quot;&gt;sensitive&lt;/code&gt;.&lt;/div&gt;&lt;div&gt;&lt;strong data-end=&quot;2517&quot; data-start=&quot;2483&quot;&gt;Доступ только врачам / по роли&lt;/strong&gt;.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-800" width="390" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-7" value="Использование &lt;strong data-end=&quot;2161&quot; data-start=&quot;2134&quot;&gt;структурированной формы&lt;/strong&gt; ввода в системе&lt;div&gt;Согласие пациента на обработку (включая PHI)&lt;/div&gt;&lt;div&gt;Привязка к ID пациента с момента ввода&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="30" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-8" value="&lt;div&gt;Только врачи с ролью &quot;лечащий специалист&quot; могут редактировать или дополнять карту — RBAC.&lt;/div&gt;&lt;div&gt;Все изменения должны происходить в зашифрованной среде — например, через форму редактирования в локальном приложении.&lt;/div&gt;&lt;div&gt;Каждое добавление/изменение фиксируется с указанием пользователя, времени, типа изменения (Data Lineage).&lt;/div&gt;&lt;div&gt;В случае отображения прошлых записей для разных врачей возможна обфускация содержимого (например, заключения по деликатным диагнозам).&lt;/div&gt;&lt;div&gt;Все клинические данные, не относящиеся к текущему визиту, должны скрываться от просмотра по умолчанию (принцип Data Minimization).&lt;/div&gt;&lt;div&gt;Каждая запись в карте маркируется: phi, encounter_note, confidential.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="50" width="860" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-13" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-170" y="-1000" as="sourcePoint" />
+            <mxPoint x="-90" y="-950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-15" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.179;exitY=0.674;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IE8gpEe8BljGyIX2EeBU-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-440" y="-910" as="sourcePoint" />
+            <mxPoint x="-521" y="-900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-16" value="&lt;div&gt;- Медкарта должна храниться в зашифрованном хранилище (например, защищённая сетевая папка, доступная только по VPN/локалке).&lt;/div&gt;&lt;div&gt;- Доступ к карте предоставляется по RBAC — только пользователям с ролью &quot;врач&quot;.&lt;/div&gt;&lt;div&gt;- Все обращения к медкарте должны логироваться — кто, когда, какую карту открыл (Data Lineage).&lt;/div&gt;&lt;div&gt;- В интерфейсе допускается обфускация части данных, если врач не должен видеть всю информацию (например, часть адреса).&lt;/div&gt;&lt;div&gt;- При предварительном просмотре (например, в списке приёмов) отображать только обезличенные данные — ID пациента, возраст, пол.&lt;/div&gt;&lt;div&gt;- Применить теги phi, medical_record, restricted_access.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-190" width="780" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-17" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.006;exitY=0.917;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="-970" as="sourcePoint" />
+            <mxPoint x="110" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-18" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="345" y="-40" as="sourcePoint" />
+            <mxPoint x="120" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-20" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;Результаты должны быть зашифрованы при хранении и передаче.&lt;/div&gt;&lt;div&gt;Доступ к результатам анализов — только врачам, при наличии ID приёма или ID пациента (RBAC + context-based access).&lt;/div&gt;&lt;div&gt;Лог доступа к каждому файлу/результату должен храниться в журнале (дата, врач, IP, пациент).&lt;/div&gt;&lt;div&gt;При отображении списка анализов — обезличивать данные пациента (ФИО, номер полиса).&lt;/div&gt;&lt;div&gt;В некоторых случаях допустима обфускация названий анализов (например, скрытие тестов на ВИЧ в обычном интерфейсе).&lt;/div&gt;&lt;div&gt;Использовать теги: lab_result, phi, restricted_lab.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="-210" width="680" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-21" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="-60" as="sourcePoint" />
+            <mxPoint x="-120" y="-120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-22" value="&lt;div&gt;Ввод записи должен происходить только авторизованным пользователем — RBAC.&lt;/div&gt;&lt;div&gt;Запись должна сохраняться в зашифрованном файле или базе, доступной только ресепшену и врачу.&lt;/div&gt;&lt;div&gt;Обязательно вести Data Lineage: кто, когда и какого пациента записал, на какое время.&lt;/div&gt;&lt;div&gt;В журнале записи хранить только ID пациента или его краткий псевдоним (например, &quot;Пациент №356&quot;) — обезличивание.&lt;/div&gt;&lt;div&gt;Применять тегирование записи: appointment, pii, restricted_access.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="215" y="-360" width="715" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-23" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.006;exitY=0.917;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="-360" as="sourcePoint" />
+            <mxPoint x="140" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-24" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;Возможность выбора времени должна не раскрывать информацию о других пациентах.&lt;/div&gt;&lt;div&gt;Использовать анонимизированный интерфейс расписания — статус ячеек «свободно/занято» без дополнительных деталей.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="-410" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-25" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.006;exitY=0.917;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-620" y="-410" as="sourcePoint" />
+            <mxPoint x="-640" y="-510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-26" value="&lt;div&gt;Расписание врачей должно быть доступно только авторизованным пользователям (ресепшен) — RBAC.&lt;/div&gt;&lt;div&gt;Логировать действия по просмотру расписания (особенно если редактируемое).&lt;/div&gt;&lt;div&gt;В расписании не должно быть ПДн других пациентов — только ID записи, статус (свободно/занято) — Data Minimization.&lt;/div&gt;&lt;div&gt;Для усиления безопасности — обфускация имен пациентов в режиме общего обзора (вместо &quot;Иванов И.И.&quot; — &quot;Пациент #123&quot;).&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-550" width="750" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-27" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="-350" as="sourcePoint" />
+            <mxPoint x="180" y="-440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-28" value="&lt;div&gt;&lt;div&gt;Использовать RBAC — доступ к журналу пациентов должен быть только у сотрудников ресепшена.&lt;/div&gt;&lt;div&gt;Data Lineage: логировать факт поиска — кто, когда и по какому признаку производил проверку (например, в Excel логах).&lt;/div&gt;&lt;div&gt;Не отображать избыточную информацию (например, диагноз, паспортные данные) в выдаче — только ФИО и ID пациента.&lt;/div&gt;&lt;div&gt;Использовать обфускацию в интерфейсе: часть данных может быть скрыта для несанкционированного просмотра.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-690" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-29" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.309;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="-550" as="sourcePoint" />
+            <mxPoint x="70" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-30" value="&lt;div&gt;Data Minimization: запрашивать только необходимые данные — ФИО, ID пациента или номер заказа.&lt;/div&gt;&lt;div&gt;Уведомить пациента о цели обработки данных (в устной или письменной форме, например, «для формирования чека»).&lt;/div&gt;&lt;div&gt;Исключить запись платёжных данных (например, номера карты) в открытые поля Excel или на бумагу.&lt;/div&gt;&lt;div&gt;Использовать обфускацию чувствительных данных на экране при вводе (маска номера карты).&lt;/div&gt;&lt;div&gt;Не сохранять ПДн или данные карты в POS-терминале или ККМ — соответствовать требованиям 152-ФЗ и 54-ФЗ.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="260" width="700" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-31" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-571" y="340" as="sourcePoint" />
+            <mxPoint x="-540" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-32" value="&lt;div&gt;Доступ к ККМ должен осуществляться только авторизованным пользователем — RBAC по учётной записи кассира.&lt;/div&gt;&lt;div&gt;В ККМ должны храниться только технические данные по операциям, без медицинской информации или избыточных ПДн.&lt;/div&gt;&lt;div&gt;Все действия кассира логируются системой ККМ и должны быть доступны для Data Lineage и аудита.&lt;/div&gt;&lt;div&gt;Исключить возможность повторной отправки или фальсификации операций — за счёт настройки ККМ/1С на одностороннюю синхронизацию.&lt;/div&gt;&lt;div&gt;Использовать встроенные теги (если система поддерживает): transaction, financial, non-sensitive.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="520" width="730" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-33" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.892;exitY=0.036;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-292" y="480" as="sourcePoint" />
+            <mxPoint x="-150" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-34" value="&lt;div&gt;Журнал должен храниться в зашифрованном виде (например, защищённый Excel с паролем, NTFS-доступ или SQL-БД).&lt;/div&gt;&lt;div&gt;RBAC: доступ к журналу только у кассира и бухгалтерии.&lt;/div&gt;&lt;div&gt;Каждое внесение платежа должно логироваться — кто, когда, за что и в каком размере (Data Lineage).&lt;/div&gt;&lt;div&gt;Использовать обезличивание: в журнале указывать ID пациента, а не ФИО.&lt;/div&gt;&lt;div&gt;Тегирование данных: payment, restricted_access, pii.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="700" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-35" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.053;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-210" y="480" as="sourcePoint" />
+            <mxPoint x="-30" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-36" value="&lt;div&gt;В чеке не должно быть лишних ПДн — только минимально необходимая информация: наименование услуги, сумма, ИНН и номер ККТ.&lt;/div&gt;&lt;div&gt;Не указывать диагноз, подробности услуги или паспорт пациента.&lt;/div&gt;&lt;div&gt;Хранение копий чеков (если необходимо) — только в зашифрованной форме, с ограничением доступа.&lt;/div&gt;&lt;div&gt;В электронных чеках (если отправляются по email) — маскировать ПДн, использовать защищённую почту.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="430" width="700" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-37" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-560" y="350" as="sourcePoint" />
+            <mxPoint x="-540" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-38" value="&lt;div&gt;Передача должна происходить по защищённому каналу (например, через OLE с настройками ограниченного подключения).&lt;/div&gt;&lt;div&gt;Доступ к данным транзакций в 1С — по RBAC, только для бухгалтерии.&lt;/div&gt;&lt;div&gt;Все транзакции автоматически журналируются и могут быть использованы для аудита — реализуется Data Lineage.&lt;/div&gt;&lt;div&gt;Передаваемые данные не должны содержать медицинской информации или избыточных ПДн.&lt;/div&gt;&lt;div&gt;Внутри 1С использовать тегирование операций (если возможно) как financial_transaction, non-medical, restricted_internal.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="460" width="567.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-39" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.003;exitY=0.821;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="242.5" y="510" as="sourcePoint" />
+            <mxPoint x="110" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-40" value="&lt;div&gt;&lt;div&gt;Использовать RBAC: доступ на запись в журнал — только у врача и администраторов.&lt;/div&gt;&lt;div&gt;Excel-файл должен быть зашифрован (пароль, защищённая папка, NTFS ACL).&lt;/div&gt;&lt;div&gt;В журнале не хранить ПДн (ФИО, номер паспорта) — только ID пациента или внутренний код — обезличивание.&lt;/div&gt;&lt;div&gt;Фиксировать каждое назначение: кто, когда, для какого пациента — Data Lineage.&lt;/div&gt;&lt;div&gt;Каждое назначение в журнале помечать тегом: lab_order, internal_use, phi.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="750" width="460" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-41" value="&lt;div&gt;&lt;div&gt;Доступ — только по RBAC: врач может открыть только анализы «своих» пациентов.&lt;/div&gt;&lt;div&gt;Хранилище должно быть зашифровано (BitLocker, VeraCrypt, защищённый NAS).&lt;/div&gt;&lt;div&gt;Все действия врача (открытие, копирование, редактирование) логируются — Data Lineage.&lt;/div&gt;&lt;div&gt;Файлы анализов помечаются тегами: lab_result, phi, restricted_access.&lt;/div&gt;&lt;div&gt;Интерфейс просмотра может использовать обфускацию малозначимых данных.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="1050" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-42" value="Хранение результатов вне системы должно быть временным, с последующим занесением в защищённое хранилище.&#xa;Недопустимо пересылать результаты по незащищённой почте — использовать корпоративную почту с S/MIME или защищённую флешку.&#xa;Ввести регламент по удалению промежуточных носителей после загрузки в хранилище." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="500" y="800" width="560" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-43" value="&lt;div&gt;&lt;div&gt;Файл должен быть защищён: пароль + ограничение прав доступа.&lt;/div&gt;&lt;div&gt;Каждое изменение логируется (можно средствами Excel или сторонними DLP-средствами).&lt;/div&gt;&lt;div&gt;Вместо ФИО — только ID пациента — обезличивание.&lt;/div&gt;&lt;div&gt;Строки результатов тегируются как: lab_result, phi, restricted.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="425" y="670" width="445" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-44" value="&lt;div&gt;&lt;div&gt;Все файлы хранятся в зашифрованной директории, доступной только авторизованным пользователям.&lt;/div&gt;&lt;div&gt;По RBAC, администратор может сохранять, но не просматривать чужие записи.&lt;/div&gt;&lt;div&gt;Операции загрузки логируются (время, имя файла, пользователь) — Data Lineage.&lt;/div&gt;&lt;div&gt;Именование файлов без ФИО: IDпациента_анализ_дата.pdf — обезличивание.&lt;/div&gt;&lt;div&gt;Метки: lab_result, phi, confidential.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="1050" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-45" value="&lt;div&gt;&lt;div&gt;Передавать отчёты только через защищённые каналы: корпоративный Outlook, защищённый файловый сервер или внутренний портал.&lt;/div&gt;&lt;div&gt;Отчёты не должны содержать персональных данных — только агрегированные показатели (суммы, доли, объёмы).&lt;/div&gt;&lt;div&gt;Вести журнал передачи (например, «Отчёт от 13.06.2025 передан Иванову И.И.»).&lt;/div&gt;&lt;div&gt;Если в отчёте остаются PII — применить обфускацию или полностью обезличить (на этапе построения отчёта).&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="1700" width="540" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-46" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.843;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-210" y="904" as="sourcePoint" />
+            <mxPoint x="-70" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-47" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=1.002;exitY=0.358;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="874" as="sourcePoint" />
+            <mxPoint x="-370" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-48" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="1125" as="sourcePoint" />
+            <mxPoint x="560" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-49" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.13;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475.5" y="870" as="sourcePoint" />
+            <mxPoint x="344.5" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-50" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1000" as="sourcePoint" />
+            <mxPoint x="109" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-51" value="&lt;div&gt;&lt;div&gt;Печать — на локальном принтере без хранения копии. Электронная передача — только через защищённые каналы.&lt;/div&gt;&lt;div&gt;Выдача результатов с минимумом ПДн: без адреса, диагноза и лишней информации — Data Minimization.&lt;/div&gt;&lt;div&gt;Использовать шаблон представления, в котором чувствительные части могут быть скрыты — обфускация интерфейса.&lt;/div&gt;&lt;div&gt;Факт передачи фиксируется (например, электронная подпись пациента или запись в журнал) — Data Lineage.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1020" width="610" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-52" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="678" y="930" as="sourcePoint" />
+            <mxPoint x="380" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-53" value="&lt;div&gt;&lt;div&gt;Ввести ролевую модель (RBAC) — только авторизованные пользователи со складской ролью могут добавлять/редактировать записи.&lt;/div&gt;&lt;div&gt;Все действия (добавление, изменение, удаление записей) логировать с указанием времени, пользователя и объекта — реализовать Data Lineage.&lt;/div&gt;&lt;div&gt;Защитить саму базу 1С — настроить уровни доступа к справочникам, документам, отчетам.&lt;/div&gt;&lt;div&gt;Тегировать данные в учёте ТМЦ по категориям (например, equipment, pharmaceuticals, restricted_inventory).&lt;/div&gt;&lt;div&gt;Принцип Data Minimization: отображать сотруднику только необходимые поля, без лишней финансовой информации.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="1330" width="830" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-54" value="&lt;div&gt;&lt;div&gt;Организовать защищённый канал передачи данных (через файловую синхронизацию или COM/OLE API с ограничением прав).&lt;/div&gt;&lt;div&gt;Логировать все синхронизации: что, когда, кем инициировано, какие документы переданы — Data Lineage.&lt;/div&gt;&lt;div&gt;Ограничить передаваемые данные — в рамках Data Minimization передавать только нужные поля (без лишней информации о складе).&lt;/div&gt;&lt;div&gt;Проставлять теги на передаваемые объекты (например, movement_doc, internal_transfer, accounting_sync).&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1170" width="740" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-55" value="&lt;div&gt;&lt;div&gt;Применять RBAC — бухгалтеры должны видеть только те документы и справочники, которые им нужны (например, документы поступления, счета).&lt;/div&gt;&lt;div&gt;Доступ к каждому отчёту или модулю должен логироваться — Data Lineage.&lt;/div&gt;&lt;div&gt;Финансовые отчёты, содержащие чувствительные сведения (например, цена закупки медоборудования), должны быть зашифрованы при передаче (если выгружаются/пересылаются).&lt;/div&gt;&lt;div&gt;Обезличить данные поставщиков, если они используются только для внутреннего контроля (например, скрыть ИНН, адрес).&lt;/div&gt;&lt;div&gt;Применить тегирование: finance_doc, inventory_cost, restricted_finance_data.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1325" width="735" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-56" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="1330" as="sourcePoint" />
+            <mxPoint x="-160" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-57" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="1350" as="sourcePoint" />
+            <mxPoint x="160" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-58" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="1280" as="sourcePoint" />
+            <mxPoint x="480" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-59" value="Руководитель" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="1780" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IE8gpEe8BljGyIX2EeBU-170" target="_cB8E_7NjhnuPHgziKwG-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-270" y="1700" as="sourcePoint" />
+            <mxPoint x="-20" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-61" value="отчёт" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_cB8E_7NjhnuPHgziKwG-60">
+          <mxGeometry x="0.3115" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-62" value="&lt;div&gt;&lt;div&gt;Применять RBAC — бизнес-аналитик должен получать только агрегированные или обезличенные данные.&lt;/div&gt;&lt;div&gt;Использовать обезличивание: замена ФИО и других PII на ID или хэши.&lt;/div&gt;&lt;div&gt;Хранилище с данными пациентов должно быть зашифровано, доступ — только по логину и паролю с двухфакторной аутентификацией.&lt;/div&gt;&lt;div&gt;Вести аудит запросов и формируемых отчётов (кто, когда, какие поля использовал) — Data Lineage.&lt;/div&gt;&lt;div&gt;Применять тегирование: bi_data, sensitive, aggregated_view, no_direct_pii.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="1710" width="635" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-63" value="&lt;div&gt;&lt;div&gt;Ввести RBAC — только сотрудники с ролью «бизнес-аналитик» могут открывать эти журналы.&lt;/div&gt;&lt;div&gt;Все Excel-файлы должны быть зашифрованы (например, средствами BitLocker, VeraCrypt, паролями Excel).&lt;/div&gt;&lt;div&gt;Логировать доступ к каждому файлу (фамилия, время, IP) — реализовать Data Lineage.&lt;/div&gt;&lt;div&gt;Применить Data Minimization: предоставлять выгрузку только необходимых столбцов (например, агрегированные суммы, а не имена пациентов).&lt;/div&gt;&lt;div&gt;Обезличить ID пациентов (удалить ФИО, контактные данные).&lt;/div&gt;&lt;div&gt;При работе с локальными копиями включить меры защиты от копирования (например, редактирование только в режиме просмотра).&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="1480" width="760" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-64" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=0.227;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="1340" as="sourcePoint" />
+            <mxPoint x="-50" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-65" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-200" y="1780.5" as="sourcePoint" />
+            <mxPoint x="-309" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cB8E_7NjhnuPHgziKwG-66" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#008026, #ededed);exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.408;entryY=0.19;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_cB8E_7NjhnuPHgziKwG-63" target="IE8gpEe8BljGyIX2EeBU-168">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-270" y="1760" as="sourcePoint" />
+            <mxPoint x="-199" y="1772" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
